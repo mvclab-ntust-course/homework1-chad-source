@@ -1,18 +1,4 @@
 import wandb
-import argparse
-wandb.login()
-
-wandb.init(
-    project="hw1",
-
-    config={
-    "learning_rate": 0.001,
-    "architecture": "CNN",
-    "dataset": "CIFAR-100",
-    "epochs": 10,
-    }
-)
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -89,6 +75,20 @@ class ResNet18(nn.Module):
     
 
 if __name__ == '__main__':
+
+    wandb.login()
+
+    wandb.init(
+    
+        project="hw1",
+    
+        config={
+        "learning_rate": 0.001,
+        "architecture": "CNN",
+        "dataset": "CIFAR-100",
+        "epochs": 10,
+        }
+    )
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
