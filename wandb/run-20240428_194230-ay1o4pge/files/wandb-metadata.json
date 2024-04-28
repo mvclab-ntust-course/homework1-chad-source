@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.5",
+    "heartbeatAt": "2024-04-28T11:42:30.885315",
+    "startedAt": "2024-04-28T11:42:30.124624",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\course\\Lab\\Lab_course\\w1\\ResNet18.py",
+    "codePathLocal": "ResNet18.py",
+    "codePath": "ResNet18.py",
+    "git": {
+        "remote": "https://github.com/mvclab-ntust-course/homework1-chad-source",
+        "commit": "cd05b8436f754e67133696072a587f399a5cf0ba"
+    },
+    "email": "chad97088@gmail.com",
+    "root": "D:/course/Lab/Lab_course/w1",
+    "host": "DESKTOP-TKHVRRR",
+    "username": "User",
+    "executable": "c:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3701.0,
+        "min": 0.0,
+        "max": 3701.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3701.0,
+            "min": 0.0,
+            "max": 3701.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 931.4960899353027,
+            "used": 618.7598419189453
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2060",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.909526824951172
+    }
+}
